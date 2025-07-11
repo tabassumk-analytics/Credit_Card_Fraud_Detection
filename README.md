@@ -3,18 +3,13 @@
 **Overview**
 In this project, I focused on detecting fraudulent credit card transactions using machine learning models. My objective was to develop a structured fraud detection system by cleaning the data, exploring patterns, building predictive models, and selecting the most effective one based on performance metrics. Two popular models were compared: Logistic Regression and Random Forest Classifier.
 
-The entire project workflow was documented professionally, making it suitable for portfolio presentation and real-world deployment discussions.
-
-
-**Dataset Summary**
-
+**Dataset**
 * **Source:** Kaggle (Credit Card Fraud Detection Dataset)
 * **File Name:** creditcard.csv
 * **Total Rows:** 284,807
 * **Total Columns:** 31
 * **Target Variable:** `Class` (1 = Fraud, 0 = Not Fraud)
 * **Key Challenge:** Severe class imbalance, with only 0.17% fraud cases.
-
 
 **Step-by-Step Project Breakdown**
 
@@ -30,9 +25,9 @@ The entire project workflow was documented professionally, making it suitable fo
 * **Amount Distribution:** Most transactions are under \$100. Very few high-value transactions.
 * **Time Distribution:** Transactions spread uniformly across time with visible peaks.
 * **Correlation Heatmap:** No strong correlations observed due to PCA transformation.
-* **Visual Files:**
+* **Visualization:**
 
-  * `charts/amount_distribution.png`
+  * ![Amount Distribution](charts/amount_distribution.png)
   * `charts/time_distribution.png`
   * `charts/correlation_heatmap.png`
 
