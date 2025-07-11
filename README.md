@@ -89,9 +89,7 @@ Feature Engineering
 
 **Overall Conclusion**
 
-By following a structured, step-by-step process, this project demonstrates a complete fraud detection workflow using two well-known machine learning models. Random Forest Classifier was selected as the final model based on precision and recall trade-offs suitable for real-world business applications.
-
-**Personal Reflection:**
+This project demonstrates a complete fraud detection workflow using two well-known machine learning models. Random Forest Classifier was selected as the final model based on precision and recall trade-offs suitable for real-world business applications.
 This project helped me build and practice end-to-end machine learning workflow skills, including data cleaning, feature engineering, model evaluation, and professional project documentation. I learned how to handle imbalanced datasets, how to choose the right model based on business context, and how to structure my work to present professionally on GitHub and for real-world deployment scenarios.
 
 
