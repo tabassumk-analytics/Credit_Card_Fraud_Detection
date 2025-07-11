@@ -46,7 +46,7 @@ Feature Engineering
 * Created new features: `Amount_scaled` and `Time_scaled`.
 * Dropped original `Amount` and `Time` columns to improve model learning consistency.
 
-** Model Building & Evaluation**
+**Model Building & Evaluation**
 
 **Model 1: Logistic Regression**
 
