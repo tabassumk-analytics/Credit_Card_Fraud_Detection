@@ -81,7 +81,7 @@ Feature Engineering
 **Recommendations**
 
 1. **Use Random Forest as the Primary Fraud Detection Model**
-   Demonstrates a better fraud capture rate while maintaining precision. Ideal for financial institutions seeking balanced fraud detection.
+   Demonstrates a better fraud capture rate while maintaining precision, which is ideal for financial institutions seeking balanced fraud detection.
 
 2. **Real-Time Deployment**
    Integrate the Random Forest model into transaction monitoring systems using frameworks such as Flask or FastAPI.
@@ -96,4 +96,5 @@ This project presents a fully structured fraud detection solution using Logistic
 
 
 **Created by:** Tabassum Arshad
+
 **Tools Used:** Python, Pandas, Seaborn, Matplotlib, Scikit-learn, Jupyter Notebook
