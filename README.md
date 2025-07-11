@@ -38,7 +38,7 @@ Exploratory Data Analysis (EDA)
 ### Correlation Heatmap
 ![Correlation Heatmap](charts/correlation_heatmap.png)
 
-**Business Insight:** Fraud detection models must handle imbalanced data while respecting transaction patterns such as time peaks and low-value clustering.
+**Insight:** Fraud detection models must handle imbalanced data while respecting transaction patterns such as time peaks and low-value clustering.
 
 Feature Engineering
 
@@ -78,7 +78,7 @@ Feature Engineering
 * **Feature Scaling:** Improves model reliability by normalizing key numerical columns.
 * **Model Selection:** Random Forest Classifier provides better fraud detection balance between precision and recall compared to Logistic Regression.
 
-**Business Recommendations**
+**Recommendations**
 
 1. **Use Random Forest as the Primary Fraud Detection Model**
    Demonstrates a better fraud capture rate while maintaining precision. Ideal for financial institutions seeking balanced fraud detection.
