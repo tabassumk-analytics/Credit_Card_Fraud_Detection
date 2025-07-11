@@ -13,14 +13,14 @@ In this project, I focused on detecting fraudulent credit card transactions usin
 
 **Step-by-Step Project Breakdown**
 
-** Data Cleaning & Pre-Processing**
+Data Cleaning & Pre-Processing
 
 * Verified there were no missing values.
 * Removed 1,081 duplicate rows to maintain dataset integrity.
 * Identified outliers in `Amount` and `Time` columns using the 99th percentile threshold; retained them to avoid removing valid fraud patterns.
 * Exported cleaned dataset as `creditcard_cleaned.csv`.
 
-** Exploratory Data Analysis (EDA)**
+Exploratory Data Analysis (EDA)
 
 * **Amount Distribution:** Most transactions are under \$100. Very few high-value transactions.
 * **Time Distribution:** Transactions spread uniformly across time with visible peaks.
@@ -38,7 +38,7 @@ In this project, I focused on detecting fraudulent credit card transactions usin
 
 **Business Insight:** Fraud detection models must handle imbalanced data while respecting transaction patterns such as time peaks and low-value clustering.
 
-** Feature Engineering**
+Feature Engineering
 
 * Applied StandardScaler to `Amount` and `Time`.
 * Created new features: `Amount_scaled` and `Time_scaled`.
@@ -51,7 +51,7 @@ In this project, I focused on detecting fraudulent credit card transactions usin
 * Accuracy: 100%
 * Precision (Fraud): 0.85
 * Recall (Fraud): 0.58
-* **Confusion Matrix:** `charts/logistic_regression_confusion_matrix.png`
+* **Confusion Matrix:** ![Logistic Regression Confusion Matrix](charts/logistic_regression_confusion_matrix.png)
 * **Insight:** Performs well on the majority class but misses a considerable number of fraud cases. Suitable as a baseline model.
 
 **Model 2: Random Forest Classifier**
@@ -59,26 +59,22 @@ In this project, I focused on detecting fraudulent credit card transactions usin
 * Accuracy: 100%
 * Precision (Fraud): 0.97
 * Recall (Fraud): 0.74
-* **Confusion Matrix:** `charts/random_forest_confusion_matrix.png`
+* **Confusion Matrix:** ![Random Forest Confusion Matrix](charts/random_forest_confusion_matrix.png)
 * **Insight:** Captures a higher percentage of fraudulent transactions, making it a stronger candidate for production use.
 
 **Model Comparison Chart:**
-
-* `charts/model_comparison_bar.png`
+![Model Comparison Bar](charts/model_comparison_bar.png)
 
 ** Model Saving**
 
 * Saved the Random Forest model using `joblib` as `output/random_forest_model.pkl`.
 * Ensures model reusability in deployment scenarios without retraining.
 
-
 **Key Business Insights**
 
 * **Class Imbalance Handling:** Essential in fraud detection. Ignoring class imbalance leads to misleading model accuracy.
 * **Feature Scaling:** Improves model reliability by normalizing key numerical columns.
 * **Model Selection:** Random Forest Classifier provides better fraud detection balance between precision and recall compared to Logistic Regression.
-* **Portfolio Impact:** This project demonstrates professional end-to-end machine learning pipeline skills relevant for business and data analyst roles.
-
 
 **Business Recommendations**
 
@@ -90,10 +86,6 @@ In this project, I focused on detecting fraudulent credit card transactions usin
 
 3. **Monitor Model Performance Regularly**
    Fraud patterns evolve; regular retraining ensures the model stays effective.
-
-4. **Explore Advanced Techniques**
-   Test ensemble methods like XGBoost or LightGBM for further performance improvement in future project versions.
-
 
 **Overall Conclusion**
 
