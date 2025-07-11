@@ -5,7 +5,7 @@ In this project, I focused on detecting fraudulent credit card transactions usin
 
 **Dataset**
 * **Source:** Kaggle (Credit Card Fraud Detection Dataset)
-* https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+  https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
   
 * **File Name:** creditcard.csv
 * **Total Rows:** 284,807
