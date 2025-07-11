@@ -84,9 +84,9 @@ Feature Engineering
    Demonstrates a better fraud capture rate while maintaining precision, which is ideal for financial institutions seeking balanced fraud detection.
 
 2. **Real-Time Deployment**
-   Integrate the Random Forest model into transaction monitoring systems using frameworks such as Flask or FastAPI.
+   Integrate the Random Forest model using Flask for quick deployment or FastAPI for scalable production setups, depending on business needs.
 
-3. **Monitor Model Performance Regularly**
+4. **Monitor Model Performance Regularly**
    Fraud patterns evolve; regular retraining ensures the model stays effective.
 
 **Overall Conclusion**
