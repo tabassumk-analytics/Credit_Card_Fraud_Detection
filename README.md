@@ -27,9 +27,14 @@ In this project, I focused on detecting fraudulent credit card transactions usin
 * **Correlation Heatmap:** No strong correlations observed due to PCA transformation.
 * **Visualization:**
 
-  * ![Amount Distribution](charts/amount_distribution.png)
-  * `charts/time_distribution.png`
-  * `charts/correlation_heatmap.png`
+### Amount Distribution
+![Amount Distribution](charts/amount_distribution.png)
+
+### Time Distribution
+![Time Distribution](charts/time_distribution.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](charts/correlation_heatmap.png)
 
 **Business Insight:** Fraud detection models must handle imbalanced data while respecting transaction patterns such as time peaks and low-value clustering.
 
