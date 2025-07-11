@@ -67,7 +67,7 @@ Feature Engineering
 **Model Comparison Chart:**
 ![Model Comparison Bar](charts/model_comparison_bar.png)
 
-** Model Saving**
+**Model Saving**
 
 * Saved the Random Forest model using `joblib` as `output/random_forest_model.pkl`.
 * Ensures model reusability in deployment scenarios without retraining.
